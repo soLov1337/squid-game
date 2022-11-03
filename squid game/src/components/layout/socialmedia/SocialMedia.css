@@ -1,0 +1,23 @@
+
+.styleIcon{
+	color: white;
+	opacity: 80;
+	transition-property: opacity;
+	transition-duration: 300ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.styleIcon:hover{
+	opacity: 100;
+}
+.social{
+	margin: 16px 0 16px 0;
+	display: block;
+	
+}
+.global-social{
+	position: absolute;
+	right: 4px;
+	top: 40vh;
+	z-index: 10;
+
+}

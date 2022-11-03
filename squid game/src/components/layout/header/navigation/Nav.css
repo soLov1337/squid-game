@@ -1,0 +1,25 @@
+
+.ul-nav{
+	list-style-type: none;
+	
+	display: flex;
+	align-items: center;
+}
+.li-nav{
+	display: inline-block;
+	padding: 0 16px 0 16px;
+	color: white;
+	opacity: 75%;
+	transition-property: opacity;
+	transition-duration: 300ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.li-nav:hover{
+	opacity: 100%;
+	cursor: pointer;
+}
+
+.logo{
+	width: 165px;
+	cursor: default;
+}

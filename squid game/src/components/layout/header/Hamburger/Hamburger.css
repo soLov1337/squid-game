@@ -1,0 +1,44 @@
+
+.hamb{
+	position: relative;
+}
+
+button{
+	opacity: 90%;
+	background: transparent;
+	border: none;
+}
+
+.globalul{
+	position: absolute;
+	border-radius: 12px;
+	background-color: white;
+	box-shadow: 1px 1px 20px grey;
+	padding: 10px;
+	width: 110px;
+	right: 0;
+	animation-name: Vova;
+}
+
+.li{
+	display: block;
+	padding: 4px 0 4px 0;
+	transition: all .3s ease-out;
+	cursor: pointer;
+}
+
+.li:hover{
+	color: rgb(124,58,237);
+}
+
+@keyframes Vova{
+	0%{
+		opacity: 0;
+	}
+	50%{
+		opacity: 0.5;
+	}
+	100%{
+		opacity: 1;
+	}
+}

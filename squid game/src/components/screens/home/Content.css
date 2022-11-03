@@ -1,0 +1,24 @@
+
+.logo-con{
+	margin-bottom: 10px;
+	width: 50%;
+	margin-left: -47px;
+}
+
+.object-con{
+	display: flex;
+	margin-left: 5px;
+	align-items: center;
+}
+.object-img{
+	height: auto;
+	margin-right: 2rem;
+	display: block;
+	max-height: 50px;
+}
+p{
+	max-width: 30%;
+	color: white;
+	opacity: 70%;
+	line-height: 2rem;
+}

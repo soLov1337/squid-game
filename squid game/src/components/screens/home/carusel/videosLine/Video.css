@@ -1,0 +1,16 @@
+
+
+.Video{
+	display: flex;
+	align-items: flex-end;
+	height: 8rem;
+	transition-duration: 300ms;
+	transition-timing-function: linear;
+}
+
+.image{
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100%;
+}
